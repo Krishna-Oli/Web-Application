@@ -23,15 +23,6 @@ Description: The salesperson info is vulnerable to SQL injection. You can inject
 
 <img src="https://github.com/Krishna-Oli/Web-Application/blob/main/blue-vuln1.gif">
 
-Vulnerability #2: Session Hijacking/Fixation
-
-Description: Two instances of the login has been opened in two browsers. You can log in one of the browser and the browser
-and copied its session id. You can change the session id for another browser with the session id I copied.
-This allocated the other browser to be logged in without using the login credentials.
-
-<img src="https://github.com/Krishna-Oli/Web-Application/blob/main/blue-vuln2%20(1).gif">
-<img src="https://github.com/Krishna-Oli/Web-Application/blob/main/blue-vuln2.gif">
-
 ## Green
 
 Vulnerability #1: Cross-Site Scripting (XSS)
@@ -57,13 +48,6 @@ Description: Viewing the salesperson info you can put ?id=10 or ?id=11 to view h
 
 <img src="https://github.com/Krishna-Oli/Web-Application/blob/main/red-vuln1.gif">
 
-Vulnerability #2: Cross-Site Request Forgery (CSRF)
-
-Description: A link to malicious form is provided through the feedback box in the contact page.
-When an admin that is logged in opens the link, a new user gets added.
-
-<img src="https://github.com/Krishna-Oli/Web-Application/blob/main/red-vuln2%20(1).gif">
-<img src="https://github.com/Krishna-Oli/Web-Application/blob/main/red-vuln2.gif">
 
 
 ## Notes
