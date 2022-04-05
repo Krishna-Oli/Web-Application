@@ -25,14 +25,7 @@ Description: The salesperson info is vulnerable to SQL injection. You can inject
 
 ## Green
 
-Vulnerability #1: Cross-Site Scripting (XSS)
-
-Description: Put the malicious code inside the feedback box. An alert box will pop up when an admin/user
-opens up the feedback page.
-
-<img src="https://github.com/Krishna-Oli/Web-Application/blob/main/green-vuln1.gif">
-
-Vulnerability #2: Username Enumeration
+Vulnerability #1: Username Enumeration
 
 Description: Typing correct username but wrong password, you get an error. After the inspecting you find out
 that the error is spanned by class="faliure". When an incorrect username is used, error returns class="failed".
